@@ -2,6 +2,7 @@ import Base from "../../../Base";
 import BlackContent from "./BlackContent";
 import BlackImage from "./BlackImage";
 
+
 const Black=()=>{
         return(
             <Base>

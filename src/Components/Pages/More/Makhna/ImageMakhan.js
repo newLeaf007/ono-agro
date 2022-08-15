@@ -6,15 +6,16 @@ import {
     CardTitle,
     CardText
 } from "reactstrap";
+import MakhanaImg from './MakhanaImg/makhanImag.jpg';
 const ImageMakhana = () => {
   return (
     <div>
       <Card inverse>
         <CardImg
           alt="Card image cap"
-          src="https://picsum.photos/900/270?grayscale"
+          src={MakhanaImg}
           style={{
-            height: 400,
+            height: 600,
           }}
           width="100%"
         />

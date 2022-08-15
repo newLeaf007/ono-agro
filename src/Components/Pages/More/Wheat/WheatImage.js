@@ -6,13 +6,14 @@ import {
     CardTitle,
     CardText
 } from "reactstrap";
+import WheatImg from './WheatImg/wheatI.jpg';
 const WheatImage=()=>{
     return (
         <div>
         <Card inverse>
           <CardImg
             alt="Card image cap"
-            src="https://cdn.pixabay.com/photo/2018/06/29/22/45/wheat-3506758__480.jpg"
+            src={WheatImg}
             style={{
               height: 500,
             }}

@@ -6,15 +6,16 @@ import {
     CardTitle,
     CardText
 } from "reactstrap";
+import FlexImg from './imageFlex/flexImage.jpeg';
 const FlexSeedImage=()=>{
     return (
         <div>
         <Card inverse>
           <CardImg
             alt="Card image cap"
-            src="https://assets.lybrate.com/q_auto:eco,f_auto,w_1200,h_720,c_fill,g_auto/imgs/product/health-wiki/bpages/Benefits-of-Flaxseed.jpg"
+            src={FlexImg}
             style={{
-              height: 500,
+              height: 600,
             }}
             width="100%"
           />

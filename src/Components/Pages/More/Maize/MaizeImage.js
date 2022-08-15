@@ -6,13 +6,14 @@ import {
     CardTitle,
     CardText
 } from "reactstrap";
+import MaizeImg from './MaizeImage/maizeImg.jpg';
 const MaizeImage=()=>{
     return (
         <div>
         <Card inverse>
           <CardImg
             alt="Card image cap"
-            src="https://www.mccormick.it/wp-content/uploads/2020/05/dati-aggiornati-sulla-produzione-di-mais-nel-mondo-853x480.jpg"
+            src={MaizeImg}
             style={{
               height: 500,
             }}

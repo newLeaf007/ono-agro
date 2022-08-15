@@ -6,15 +6,16 @@ import {
     CardTitle,
     CardText
 } from "reactstrap";
+import BlackImg from './imageBlackC/black.jpg';
 const BlackImage=()=>{
     return (
         <div>
         <Card inverse>
           <CardImg
             alt="Card image cap"
-            src="https://static.toiimg.com/thumb/64001569.cms?width=1200&height=900"
+            src={BlackImg}
             style={{
-              height: 500,
+              height: 600,
             }}
             width="100%"
           />
