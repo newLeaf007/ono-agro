@@ -48,9 +48,7 @@ function CustomNavbar() {
             <NavItem>
               <NavLink tag={ReactLink} to="/about-us">About Us</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink>Certificates</NavLink>
-            </NavItem>
+            
             <NavItem>
               <NavLink tag={ReactLink} to ="/contact">Contact Us</NavLink>
             </NavItem>
