@@ -16,6 +16,10 @@ const Home=()=>{
             </div>
             <CardGroupHome/>
             <VisionHome/>
+            <hr></hr>
+            <div className="container" align="center">
+                <h1 className="text-success">Our Teams</h1>
+            </div>
             <Team/>
         </div>
         </Base>

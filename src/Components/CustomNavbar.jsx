@@ -15,6 +15,7 @@ import {
   Tooltip,
 } from "reactstrap";
 import { NavLink as ReactLink } from "react-router-dom";
+import onoLogo from './images/onoagro.png';
 
 function CustomNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,10 +35,10 @@ function CustomNavbar() {
         <NavbarBrand tag={ReactLink} to="/">
           <img
             alt="logo"
-            src="/logo-white.svg"
+            src={onoLogo}
             style={{
-              height: 40,
-              width: 40,
+              height: 50,
+              width: 150,
             }}
           />
         </NavbarBrand>

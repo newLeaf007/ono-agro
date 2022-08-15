@@ -4,10 +4,12 @@ import {
   CardImg,
   CardBody,
   CardTitle,
-  CardText,
-  CardSubtitle,
-  Button,
+  CardSubtitle
 } from "reactstrap";
+import bestOffer from  './imagesHome/bestoffer.png';
+import delivery from './imagesHome/delivery.jpg';
+import manufacturing from './imagesHome/manufacturing.png';
+import qualityImage from './imagesHome/quality.jpeg';
 const CardGroupHome = () => {
   return (
     <div>
@@ -16,7 +18,7 @@ const CardGroupHome = () => {
       <Card className="m-3">
         <CardImg
           alt="Card image cap"
-          src="https://picsum.photos/318/180"
+          src={qualityImage}
           top
           width="100%"
         />
@@ -25,17 +27,14 @@ const CardGroupHome = () => {
           <CardSubtitle className="mb-2 text-muted" tag="h6">
             Best Qualitiy Serices
           </CardSubtitle>
-          <CardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </CardText>
+          
          
         </CardBody>
       </Card>
       <Card className="m-3">
         <CardImg
           alt="Card image cap"
-          src="https://picsum.photos/318/180"
+          src={bestOffer}
           top
           width="100%"
         />
@@ -44,17 +43,12 @@ const CardGroupHome = () => {
           <CardSubtitle className="mb-2 text-muted" tag="h6">
             Best Price and Deal
           </CardSubtitle>
-          <CardText>
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </CardText>
-         
         </CardBody>
       </Card>
       <Card className="m-3">
         <CardImg
           alt="Card image cap"
-          src="https://picsum.photos/318/180"
+          src={delivery}
           top
           width="100%"
         />
@@ -63,18 +57,14 @@ const CardGroupHome = () => {
           <CardSubtitle className="mb-2 text-muted" tag="h6">
             Commitment and Time Addherance
           </CardSubtitle>
-          <CardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </CardText>
+          
           
         </CardBody>
       </Card>
       <Card className="m-3">
         <CardImg
           alt="Card image cap"
-          src="https://picsum.photos/318/180"
+          src={manufacturing}
           top
           width="100%"
         />
@@ -83,11 +73,7 @@ const CardGroupHome = () => {
           <CardSubtitle className="mb-2 text-muted" tag="h6">
             In-house Manufacturing Facility
           </CardSubtitle>
-          <CardText>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </CardText>
+          
          
         </CardBody>
       </Card>
