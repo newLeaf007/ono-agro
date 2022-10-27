@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Hit the url :- https://ono-agrpo-demo.netlify.app to see the live project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
